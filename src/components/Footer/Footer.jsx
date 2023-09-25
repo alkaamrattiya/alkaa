@@ -7,39 +7,35 @@ const Footer = () => {
             <div className="container">
                 <div className="footer__content grid text__light text__center">
                     <div className="footer__content--item">
-                        <a href = "#" className="footer__navlink">Dev.Point Design, Inc.</a>
-                        <p className="para__text">&copy; 2022 Dev. Point. All rights reserved. Designed by Robirurk.</p>
+                        <a href="" style={{ fontSize: 40 }} className="footer__navlink">SASJ & Co.</a>
+                        <p className="para__text"> CHARTERED ACCOUNTANTS</p>
+                        <p style={{ margin: 20, fontSize: 30, color: "orange" }} className="para__text"> Thank you</p>
                     </div>
 
                     <div className="footer__content--item">
-                        <a href = "mailto:someone@gmail.com">someone@gmail.com</a>
-                        <span>+44 986 689 009</span>
+                        <h3 style={{ marginBottom: '.5rem', color: "#10c9c3" }} className="footer__title">EMAIL-ID</h3>
+                        <a href="mailto:someone@gmail.com"> Sasj.indore@gmail.com</a><br />
+                        <h3 style={{ marginBottom: '.5rem', color: "#10c9c3" }} className="footer__title">PHONE NO.</h3>
+                        <span> +91-98933 30185</span><br />
+                        <span>  +91-9977899033</span><br />
+                        <span> +91-731 3593821</span><br />
+                        <span> +91-9131925848</span><br />
                     </div>
-
                     <div className="footer__content--item">
-                        <h3 className="footer__title">Projects</h3>
+                        <h3 className="footer__title" style={{ color: "#10c9c3" }}>PINCODE</h3>
                         <ul className="footer__links">
-                            <li><a href = "#">About</a></li>
-                            <li><a href = "#">Services</a></li>
-                            <li><a href = "#">Career</a></li>
+                            <li><a href=""> 452001</a></li>
+
                         </ul>
                     </div>
 
                     <div className="footer__content--item">
-                        <h3 className="footer__title">News</h3>
+                        <h3 className="footer__title" style={{ color: "#10c9c3" }}>ADDRESS</h3>
                         <ul className="footer__links">
-                            <li><a href = "#">Events</a></li>
-                            <li><a href = "#">Contact</a></li>
-                            <li><a href = "#">Legals</a></li>
-                        </ul>
-                    </div>
+                            <li><a href="">10A, Vaibhav Nagar Extension,kanadiya
 
-                    <div className="footer__content--item">
-                        <h3 className="footer__title">Social LInks</h3>
-                        <ul className="footer__links">
-                            <li><a href = "#">Facebook</a></li>
-                            <li><a href = "#">Twitter</a></li>
-                            <li><a href = "#">Instagram</a></li>
+                                Road,Indore (M.P.) </a></li>
+
                         </ul>
                     </div>
                 </div>

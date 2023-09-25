@@ -27,12 +27,13 @@ const Testimonials = () => {
                             data.testimonials.map((testimonial, index) => {
                                 return (
                                     <div className="testimonials__item text__light" key = {index}>
-                                        <p className="para__text">
+                                    <p style={{fontSize:40}} className="text__upper text fw__5 ls__2">{testimonial.name}</p>
+                                        <p style={{fontSize:20}} className="para__text">
                                             <span><FaQuoteLeft /></span>
                                             &nbsp;
                                             {testimonial.text} <span>&nbsp; <FaQuoteRight /></span>
                                         </p>
-                                        <p className="text__upper text fw__5 ls__2">{testimonial.name}</p>
+                                        
                                     </div>
                                 )
                             })

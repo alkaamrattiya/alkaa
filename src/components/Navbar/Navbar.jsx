@@ -21,26 +21,22 @@ const Navbar = () => {
                 <div className="navbar__collapse">
                     <ul className="navbar__nav">
                         <li className="nav__item">
-                            <a href = "#home" className = "nav__link text__upper fw__6 text__light nav__active">home</a>
+                            <a href = "#home" className = "nav__link text__upper fw__6 text__light nav__active">Home</a>
                         </li>
                         <li className="nav__item">
-                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">about</a>
+                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">AboutUs</a>
+                        </li>
+                        
+                        <li className="nav__item">
+                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">Partners</a>
                         </li>
                         <li className="nav__item">
-                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">work</a>
+                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">Services</a>
                         </li>
                         <li className="nav__item">
-                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">process</a>
+                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">OurTeam</a>
                         </li>
-                        <li className="nav__item">
-                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">services</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">testimonials</a>
-                        </li>
-                        <li className="nav__item">
-                            <a href = "#work" className = "nav__link text__upper fw_6 text__light">contact</a>
-                        </li>
+                        
                     </ul>
                 </div>
 
@@ -51,26 +47,22 @@ const Navbar = () => {
                         </button>
                         <ul className="navbar__nav--smallscreen text__light">
                             <li className = "nav__item">
-                                <a href = "#home" className="nav__link text__upper fw__6 nav__active text__light">home</a>
+                                <a href = "#home" className="nav__link text__upper fw__6 nav__active text__light">Home</a>
                             </li>
                             <li className = "nav__item">
-                                <a href = "#about" className="nav__link text__upper fw__6 text__light">about</a>
+                                <a href = "#about" className="nav__link text__upper fw__6 text__light">AboutUs</a>
+                            </li>
+                            
+                            <li className = "nav__item">
+                                <a href = "#about" className="nav__link text__upper fw__6 text__light">Partners</a>
                             </li>
                             <li className = "nav__item">
-                                <a href = "#about" className="nav__link text__upper fw__6 text__light">work</a>
+                                <a href = "#about" className="nav__link text__upper fw__6 text__light">Services</a>
                             </li>
                             <li className = "nav__item">
-                                <a href = "#about" className="nav__link text__upper fw__6 text__light">process</a>
+                                <a href = "#about" className="nav__link text__upper fw__6 text__light">OurTeam</a>
                             </li>
-                            <li className = "nav__item">
-                                <a href = "#about" className="nav__link text__upper fw__6 text__light">services</a>
-                            </li>
-                            <li className = "nav__item">
-                                <a href = "#about" className="nav__link text__upper fw__6 text__light">testimonials</a>
-                            </li>
-                            <li className = "nav__item">
-                                <a href = "#about" className="nav__link text__upper fw__6 text__light">contact</a>
-                            </li>
+                            
                         </ul>
                     </div>
                 )}

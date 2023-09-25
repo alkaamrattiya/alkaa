@@ -1,11 +1,10 @@
 import header_bg from "../assets/images/header-bg.jpg";
 import logo from "../assets/images/logo.png";
-import signature from "../assets/images/signature.png";
 import icon_archer from "../assets/images/icon-archer.png"; 
 import icon_briefcase from "../assets/images/icon-briefcase.png";
 import icon_clock from "../assets/images/icon-clock.png";
 import icon_console from "../assets/images/icon-console.png";
-import icon_diamond from "../assets/images/icon-diamond.png";
+import icon_diamond from "../assets/images/icon-diamond.jpg";
 import icon_eye from "../assets/images/icon-eye.png";
 import icon_fantasy from "../assets/images/icon-fantasy.png";
 import icon_heart from "../assets/images/icon-heart.png";
@@ -28,7 +27,7 @@ import work_8 from "../assets/images/work-8.jpg";
 export default{
     header_bg,
     logo,
-    signature,
+   
     icon_archer,
     icon_briefcase,
     icon_clock, 
